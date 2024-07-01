@@ -59,7 +59,7 @@ My starter project was an RGB board that displays a color. How it works is that 
 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![StarterProjectImage](FERTS91H8CVL1Z6.webp)
 
 
 # Code
