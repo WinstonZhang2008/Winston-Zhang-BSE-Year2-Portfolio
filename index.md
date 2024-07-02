@@ -1,7 +1,7 @@
 # Hexapod
 
-<!--- My project is the Hexapod. A hexapod robot is a robot with 6 legs. It moves using servos and 
--->
+My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves using servos. My hexapod can perform various movements and uses ultrasonic sensors to sense where it is at. 
+
 
 ```HTML 
 ```
