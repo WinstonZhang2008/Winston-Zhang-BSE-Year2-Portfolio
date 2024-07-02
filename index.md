@@ -1,8 +1,8 @@
 # Hexapod
 
-<!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+<!--- My project is the Hexapod. A hexapod robot is a robot with 6 legs. It moves using servos and 
 -->
+
 ```HTML 
 ```
 
@@ -65,6 +65,7 @@ My starter project was an RGB board that displays a color. How it works is that 
 ![StarterProjectImage](FERTS91H8CVL1Z6.webp)
 
 
+<!---
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
@@ -80,6 +81,7 @@ void loop() {
 
 }
 ```
+-->
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -88,5 +90,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | RGB Color Slider | Starter Project | $7.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6(https://www.amazon.com/Soldering-Practice-Learning-Electronics-Training/dp/B0BKM3D927/ref=sxts_b2b_sx_reorder_acb_customer?content-id=amzn1.sym.f63a3b0b-3a29-4a8e-8430-073528fe007f%3Aamzn1.sym.f63a3b0b-3a29-4a8e-8430-073528fe007f&crid=31BMGGPIVNQ9Y&cv_ct_cx=tingbowie+diy+soldering+practice+kit+rgb&dib=eyJ2IjoiMSJ9.Rp97Q3zBJhWEH42AutKwzg.L_RdOYbQTJNYwxc0fgvKasLS9FnuTzz6CJIW5DKLDzg&dib_tag=se&keywords=tingbowie+diy+soldering+practice+kit+rgb&pd_rd_i=B0BKM3D927&pd_rd_r=5d377ea4-3171-4534-86a9-e77dc275c03b&pd_rd_w=dufIe&pd_rd_wg=T9sS9&pf_rd_p=f63a3b0b-3a29-4a8e-8430-073528fe007f&pf_rd_r=DZ1WERVCKDZMWWZM21J7&qid=1719859681&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=tingbowie+diy+soldering+practice+kit+rgb%2Caps%2C117&sr=1-1-9f062ed5-8905-4cb9-ad7c-6ce62808241a)/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
