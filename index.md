@@ -48,7 +48,7 @@ For the software part of this project, which will be implemented in my 2nd and 3
 
 <img src="Battery.jpg" width="400" height="300"><img src="Controlboard.jpg" width="400" height="300">
 
-<img src="FullRobot" width="2000" height="1500">
+<img src="fullrobot.jpg" width="2000" height="1500">
 
 
 
