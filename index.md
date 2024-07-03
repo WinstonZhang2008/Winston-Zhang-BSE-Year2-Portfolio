@@ -48,7 +48,7 @@ For the software part of this project, which will be implemented in my 2nd and 3
 
 ![First Image](Arm.jpg)![Second Image](Battery.jpg)![Third Image](Controlboard.jpg)
 
-![Full Robot](fullrobot.jpjg)
+![Full Robot](fullrobot.jpg)
 
 
 # Starter Project
