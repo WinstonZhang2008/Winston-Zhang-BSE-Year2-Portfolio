@@ -46,7 +46,7 @@ My project is the hexapod robot. For my first milestone, I have assembled the ro
 
 For the software part of this project, which will be implemented in my 2nd and 3rd milestones, I plan to code an autonomous portion, where the robot moves by itself, and also a remote-controlled portion. I will use the ESP8266 module to connect to my joystick for the remote-controlled portion in my second milestone, which is programmed through an IDE called "Processing." The autonomous portion will be implemented in my third milestone. I will install ultrasonic sensors so it can sense for obstacles, and it will run through the Arduino control board.
 
-<img src="Battery.jpg" width="500" height="333"><img src="Controlboard.jpg" width="500" height="333">
+<img src="Battery.jpg" width="450" height="300"><img src="Controlboard.jpg" width="450" height="300">
 
 ![Headstone Image](fullhexapod.jpg)
 
