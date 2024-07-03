@@ -46,14 +46,14 @@ My project is the hexapod robot. For my first milestone, I have assembled the ro
 
 For the software part of this project, which will be implemented in my 2nd and 3rd milestones, I plan to code an autonomous portion, where the robot moves by itself, and also a remote-controlled portion. I will use the ESP8266 module to connect to my joystick for the remote-controlled portion in my second milestone, which is programmed through an IDE called "Processing." The autonomous portion will be implemented in my third milestone. I will install ultrasonic sensors so it can sense for obstacles, and it will run through the Arduino control board.
 
-![First Image](Arm.jpg)![Second Image](Battery.jpg)![Third Image](Controlboard.jpg)
+<img src="Arm.jpg" width="1800" height="1200">
 
-![Full Robot](fullrobot.jpg)
 
 
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q1qfZzEQkaI?si=5SK6mRZD0XwLfbRt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 My starter project was an RGB board that displays a color. How it works is that there are three sliders that control the color of the light on the board. Every color can be represented by 3 number values that are red blue and green. The sliders determines the value of those 3 colors and the light then displays the color.
 
