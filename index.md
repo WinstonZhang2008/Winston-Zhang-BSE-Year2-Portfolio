@@ -68,7 +68,7 @@ My starter project was an RGB board that displays a color. How it works is that 
 ## Starter Project Diagram
 ![StarterProjectImage](FERTS91H8CVL1Z6.webp)
 
-## CAD for battery mount
+## CAD for battery mount(in millimeters)
 ![CAD](batterymountcad.png)
 
 <!---
