@@ -27,7 +27,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lfTrHyL7ps?si=SPMoC00xOcoACDT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Since my first milestone, I have implemented remote-controlled movement to my Hexapod. I can either use a software on my computer to control the robot, or I can use an app on my phone. The software and app have built-in code that controls the robot, so I didn't have to program anything yet, as that will be part of my third milestone, which is autonomous movement with obstacle detection. 
 
