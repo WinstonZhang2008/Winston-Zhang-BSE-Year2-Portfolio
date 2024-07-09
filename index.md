@@ -1,4 +1,4 @@
-![image](https://github.com/WinstonZhang2008/Winston-Zhang-BSE-Year2-Portfolio/assets/137824988/198d7ab8-30d3-4169-a434-b4df52bcea99)![image](https://github.com/WinstonZhang2008/Winston-Zhang-BSE-Year2-Portfolio/assets/137824988/7a620b87-c82f-4b49-adca-430db85612f5)# Hexapod
+# Hexapod
 
 My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves using servos. My hexapod can perform various movements and uses ultrasonic sensors to sense its location and look for obstacles. It uses Arduino to operate. It can either move autonomously(by itself) or by remote-control, and uses ultrasonic sensors to sense for obstacles while moving autonomously.
 
