@@ -35,7 +35,7 @@ My heavy battery was a problem at first. When I just velcroed it to the bottom o
 
 As stated before, for my final milestone, I plan to implement an autonomous program that uses an ultrasonic sensor to detect obstacles and avoid them. Also, if I have time, I will add a robotic claw to the robot for another feature.
 
-<img src="BatteryMountPrinted.jpg" width="425" height="283"><img src="mobileapp.jpg" width="283" height="425">
+<img src="processingapp.png" width="425" height="425"><img src="mobileapp.jpg" width="283" height="425">
 
 # First Milestone
 
