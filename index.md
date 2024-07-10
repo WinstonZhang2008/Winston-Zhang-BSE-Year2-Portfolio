@@ -29,11 +29,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1lfTrHyL7ps?si=SPMoC00xOcoACDT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary
 Since my first milestone, I have implemented remote-controlled movement to my Hexapod. I can either use an IDE called "Processing" on my computer to control the robot, or I can use an app on my phone called Freenove. The IDE and app have built-in code that controls the robot, so I didn't have to program anything yet, as that will be part of my third milestone, which is autonomous movement with obstacle detection. 
 
+## Challenges
 My heavy battery was a problem at first. When I just velcroed it to the bottom of the frame, or the top, the weight distribution around the robot was off, causing it to be off-balance. To solve this, I used CAD and 3D printed a board to mount the battery on, and I fastened the board on top of the frame using standoffs. Another problem I had was wire management. When I was testing the remote-controlled movement before, the servos were rotating in the wrong direction, which was hindering the movement. I spent a long time trouble-shooting and thinking it was a software problem, or that I set the servos to the wrong default positions, but it turns out that I plugged the servos into the wrong pins on my control board, causing them to rotate in the wrong directions. This was due to there being so many wires in such a small space, so I have to be more careful next time.
 (To see CAD, scroll down. Units are in millimeters. To see wiring diagram, scroll down)
 
+## Next Steps
 As stated before, for my final milestone, I plan to implement an autonomous program that uses an ultrasonic sensor to detect obstacles and avoid them. Also, if I have time, I will add a robotic claw to the robot for another feature.
 
 <img src="processingapp.png" width="425" height="425"><img src="mobileapp.jpg" width="283" height="425">
@@ -44,8 +47,14 @@ As stated before, for my final milestone, I plan to implement an autonomous prog
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yqBxWRG2DWo?si=klUiK1sxId_AdxoZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My project is the hexapod robot. For my first milestone, I have assembled the robot, which includes 18 servos, the battery, an Arduino control board, and an ESP8266 Wifi module. The Hexapod consists of 6 legs, each of which is controlled by 3 servos. The Arduino control board controls the robot. So far, the robot can't move, but I set the default positions for all the servos, so when I press the power button the servos go to their default position, allowing the robot to stand up. Initially, the default positions were out of place, and it took a lot of time to take out each servo and reset the default position to the correct place.
 
+## Summary
+My project is the hexapod robot. For my first milestone, I have assembled the robot, which includes 18 servos, the battery, an Arduino control board, and an ESP8266 Wifi module. The Hexapod consists of 6 legs, each of which is controlled by 3 servos. The Arduino control board controls the robot, as I upload code to it to control the servos.
+
+## Challenges
+So far, the robot can't move, but I set the default positions for all the servos, so when I press the power button the servos go to their default position, allowing the robot to stand up. Initially, the default positions were out of place, and it took a lot of time to take out each servo and reset the default position to the correct place.
+
+## Next Steps
 For the software part of this project, which will be implemented in my 2nd and 3rd milestones, I plan to code an autonomous portion, where the robot moves by itself, and also a remote-controlled portion. I will use the ESP8266 module to connect to my joystick for the remote-controlled portion in my second milestone, which is programmed through an IDE called "Processing." The autonomous portion will be implemented in my third milestone. I will install ultrasonic sensors so it can sense for obstacles, and it will run through the Arduino control board.
 
 <img src="Battery.jpg" width="425" height="283"><img src="Controlboard.jpg" width="425" height="283">
