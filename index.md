@@ -25,7 +25,10 @@ My biggest challenge while programming the obstacle detection was getting the se
 As for the project as a whole, I would say that wiring and configuring the servos was the hardest part for me. Everytime I set a servo to the wrong default position, I had to unscrew it and put it back, and I had to do this multiple times for all 18 servos that the Hexapod consists of. 
 
 ## What I learned
-This is my second year at BlueStamp Engineering. Prior to attending this program last summer, I had no experience in hardware, such as wiring circuits, assembling parts, and soldering. However, although I am mostly a software person, throughout the course of my time in this program, I found out how much I also love the hardware side of projects, and hope to continue building off the experiences here and explore deeper into the topics of software and hardware as a career.
+This is my second year at BlueStamp Engineering. Prior to attending this program last summer, I had no experience in hardware, such as wiring circuits, assembling parts, and soldering. However, although I am mostly a software person, throughout the course of my time in this program, I found out how much I also love the hardware side of projects, and hope to continue building off the experiences here and explore deeper into the topics of software and hardware.
+
+## Next Steps
+I plan to add modifications to my projcet. I plan to add a robotic claw at the front so it can pick something up. It will be controlled by a seperate joystick and I will also try to implement it in autonomous.
 
 ![FinishedProject](FinishedHexapod.jpg)
 
