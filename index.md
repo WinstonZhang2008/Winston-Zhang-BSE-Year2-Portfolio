@@ -27,7 +27,7 @@ As for the project as a whole, I would say that wiring and configuring the servo
 ## What I learned
 This is my second year at BlueStamp Engineering. Prior to attending this program last summer, I had no experience in hardware, such as wiring circuits, assembling parts, and soldering. However, although I am mostly a software person, throughout the course of my time in this program, I found out how much I also love the hardware side of projects, and hope to continue building off the experiences here and explore deeper into the topics of software and hardware as a career.
 
-
+![FinishedProject](FinishedHexapod.jpg)
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
