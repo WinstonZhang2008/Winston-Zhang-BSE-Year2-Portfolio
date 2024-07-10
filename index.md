@@ -10,11 +10,24 @@ My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves u
 
 ![Headstone Image](Headshot.png)
   
-<!--- # Final Milestone
+# Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Summary
+Since my second milestone, I have implemented an autonomous program using obstacle detection with an ultrasonic sensor. My program has the hexapod move forward until the ultrasonic sensor detects an obstacle. I used the Arduino library "NewPing" to configure the sensor. When it detects something less than 15 centimeters from it, it turns left 90 degrees and checks the left for any obstacles. It then checks the right for obstacles, and turns to the side that does not have obstacles and keeps moving forward. 
+
+## Challenges
+My biggest challenge while programming the obstacle detection was getting the sensor to output accurate measurements. Initially, I was using the Arduino's built-in functions to get the distance, but I needed a lot of lines of code for that, and it was inaccurate and inefficient. I then found out about the NewPing library and imported it, making my sensor a lot more efficient and accurate. 
+
+As for the project as a whole, I would say that wiring and configuring the servos was the hardest part for me. Everytime I set a servo to the wrong default position, I had to unscrew it and put it back, and I had to do this multiple times for all 18 servos that the Hexapod consists of. 
+
+## What I learned
+This is my second year at BlueStamp Engineering. Prior to attending this program last summer, I had no experience in hardware, such as wiring circuits, assembling parts, and soldering. However, although I am mostly a software person, throughout the course of my time in this program, I found out how much I also love the hardware side of projects, and hope to continue building off the experiences here and explore deeper into the topics of software and hardware as a career.
+
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -22,7 +35,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
--->
 
 # Second Milestone
 
