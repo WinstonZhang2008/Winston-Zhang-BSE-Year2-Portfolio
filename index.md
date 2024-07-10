@@ -14,7 +14,7 @@ My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves u
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1jT4rNYq0Z0?si=xaRzOntqKfJN-NKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
 Since my second milestone, I have implemented an autonomous program using obstacle detection with an ultrasonic sensor. My program has the hexapod move forward until the ultrasonic sensor detects an obstacle. I used the Arduino library "NewPing" to configure the sensor. When it detects something less than 15 centimeters from it, it turns left 90 degrees and checks the left for any obstacles. It then checks the right for obstacles, and turns to the side that does not have obstacles and keeps moving forward. 
