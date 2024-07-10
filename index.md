@@ -97,7 +97,9 @@ My starter project was an RGB board that displays a color. How it works is that 
 
 
 # Code
+<!---
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+-->
 
 ```c++
 #include <NewPing.h>
