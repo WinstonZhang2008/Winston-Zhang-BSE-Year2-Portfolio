@@ -3,8 +3,8 @@
 ## My Projects
 
 ### Hexapod (Click to view portfolio)
-[![Project 1](ModifiedHexapod.jpg)](./hexapodproject.html)
+[![Project 1](ModifiedHexapod.jpg)](./hexapodproject.md)
 
 ### Ball Tracking Robot
-[![Project 2](FrontofRobot.jpg)](./balltracking.html)
+[![Project 2](FrontofRobot.jpg)](./balltracking.md)
 
