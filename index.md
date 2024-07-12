@@ -1,10 +1,10 @@
 # Winston Z- BlueStamp Engineering Portfolio
 
-## My Projects
+## My Projects (Click on them to view portfolios)
 
-## Hexapod
+### Hexapod 
 [![Project 1](ModifiedHexapod.jpg)](./hexapodproject.html)
 
-## Ball Tracking Robot
+### Ball Tracking Robot
 
 
