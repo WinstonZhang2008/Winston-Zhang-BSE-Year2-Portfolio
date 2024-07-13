@@ -1,5 +1,3 @@
-
-
 ## My Projects
 
 ### Hexapod (Click to view portfolio)
