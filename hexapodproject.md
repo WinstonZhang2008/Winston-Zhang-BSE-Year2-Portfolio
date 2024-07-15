@@ -1,6 +1,6 @@
 # Hexapod
 
-My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves using servos. My hexapod can perform various movements and uses ultrasonic sensors to sense its location and look for obstacles. It uses Arduino to operate. It can either move autonomously(by itself) or by remote-control, and uses ultrasonic sensors to sense for obstacles while moving autonomously.
+My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves using servos, allowing for various unique movements, such as different body orientations and also strafing left and right. I chose this project because it is a very versatile project where I can implement a lot of things to it. For example, I have an autonomous program that uses an ultrasonic sensor to allow the hexapod to detect obstacles and avoid them. I also attached a robotic claw that can be controlled through the Web Bluetooth Terminal on my browser. The claw enables the robot to pick things up.
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
