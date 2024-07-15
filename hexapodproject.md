@@ -102,6 +102,7 @@ My starter project was an RGB board that displays a color. How it works is that 
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 -->
 
+### Autonomous Obstacle Detection
 ```c++
 #include <NewPing.h>
 #include <FNHR.h>
@@ -214,6 +215,7 @@ int readPing(){
 
 ```
 
+## Remote Control Using Bluetooth Terminal
 ```c++
 
 #include <Servo.h>
