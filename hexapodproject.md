@@ -93,6 +93,9 @@ My starter project was an RGB board that displays a color. How it works is that 
 ## Wiring Diagram (Port number will be on the front of the control board)
 ![Wiring](wiring.png)
 
+## Circuit Diagram for Bluetooth HC-08
+![Circuit](bluetoothhc05.png)
+
 
 # Code
 <!---
