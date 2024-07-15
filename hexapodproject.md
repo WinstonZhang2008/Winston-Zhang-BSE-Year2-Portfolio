@@ -7,9 +7,21 @@ My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves u
 |:--:|:--:|:--:|:--:|
 | Winston Z | Quarry Lane | Computer Science | Incoming Junior
 
-
 ![Headstone Image](Headshot.png)
-  
+
+# Modifications
+
+## Summary
+For my first 3 milestones, I implemented remote controlled movement and also autonomous movement. However, I felt that I could do more with this project, so I assembled a robotic claw and attached it to the Arduino and the robot. I can control all components of the robot, which are the legs and the claw, through an interface called the Web Bluetooth Termianl on my browser. The terminal is connected to my robot through a Bluetooth HC-08 Module, and I programmed commands in Arduino IDE. I can upload these commands through the bluetooth terminal and control the robot.
+(To see code, scroll down)
+
+## Challenges
+Initially, the remote-controlled movement was implemented through an app called Freenove on my phone and also a software I downloaded on my computer. However, those utilities had built-in code, meaning that I couldn't add another button/option for the newly added claw, which meant I had to change the way I controlled the robot. This is when I discovered the Web BlueTooth Terminal, where I can upload custom commands to control both the claw and the robot.
+
+## Next Steps
+If I had more time, I would make my hexapod more physically appealing. Currently, I have a lot of free-flowing wires, and my claw is ziptied onto the front of the robot, which isn't the best solution. My battery mount also looks out of place, as it is just an orange rectangular prism. These problems are due to my lack of skill in CAD, and so if I had more time I would learn CAD and 3D print a better mount for the battery and especially the claw, as using zipties isn't reliable. 
+
+
 # Final Milestone
 
 
