@@ -214,6 +214,89 @@ int readPing(){
 
 ```
 
+```c++
+
+#include <Servo.h>
+#include <FNHR.h>
+
+String currentmovement = "Stopped";
+
+FNHR hexapod;
+const int servopin = 21;
+
+Servo claw;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial3.begin(9600);
+  Serial.begin(9600);
+  claw.attach(servopin);
+  claw.write(90);
+  hexapod.Start();
+  Serial3.println("o to open claw, c to close claw. WASD to move robot, and Q to turn robot left, E to turn robot right.");
+
+}
+
+void loop() {
+
+  // put your main code here, to run repeatedly:
+  if (currentmovement == "moveForward"){
+    hexapod.CrawlForward();
+  }
+  if (currentmovement == "Stopped"){
+    hexapod.SleepMode();
+  }
+  if (currentmovement == "moveBackward"){
+    hexapod.CrawlBackward();
+  }
+  if (currentmovement == "strafeRight"){
+    hexapod.CrawlRight();
+  }
+  if (currentmovement == "strafeLeft"){
+    hexapod.CrawlLeft();
+  }
+  if (currentmovement == "turnLeft"){
+    hexapod.TurnLeft();
+  }
+  if (currentmovement == "turnRight"){
+    hexapod.TurnRight();
+  }
+
+
+  if (Serial3.available()){
+    char command = Serial3.read();
+    if (command == 'c'){
+      claw.write(0);
+    }
+    if (command == 'o'){
+      claw.write(90);
+    }
+    if (command == 'w'){
+      currentmovement = "moveForward" ;
+    }
+    if (command == 's'){
+      currentmovement = "moveBackward";
+    }
+    if (command == '0'){
+      currentmovement = "Stopped";
+    }
+    if (command == 'd'){
+      currentmovement = "strafeRight";
+    }
+    if (command == 'a'){
+      currentmovement = "strafeLeft";
+    }
+    if (command == 'q'){
+      currentmovement = "turnLeft";
+    }
+    if (command == 'e'){
+      currentmovement = "turnRight";
+    }
+  }
+
+}
+```
+
 
 # Bill of Materials
 
