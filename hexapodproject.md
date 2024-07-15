@@ -206,6 +206,7 @@ void loop() {
     if (leftdistance>=rightdistance){
       //If the closest obstacle to the left is farther away than the closest obstacle on the right, it turns left
       turnLeft();
+      delay(100);
       turnLeft();
       //Since it is already facing the right, the hexapod just continues on if it decides to keep moving forward right
     }
