@@ -10,6 +10,7 @@ My project is the Hexapod. A hexapod robot is a robot with 6 legs and it moves u
 ![Headstone Image](Headshot.png)
 
 # Modifications
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yvuTVGd5Fs?si=3zs21WOv6F-2JZPK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
 For my first 3 milestones, I implemented remote controlled movement and also autonomous movement. However, I felt that I could do more with this project, so I assembled a robotic claw. I connected it to the Arduino through a breadboard. I can control all components of the robot, which are the legs and the claw, through an interface called the Web Bluetooth Termianl on my browser. The terminal is connected to my robot through a Bluetooth HC-08 Module, and I programmed commands in Arduino IDE. I can upload these commands through the bluetooth terminal and control the robot.
