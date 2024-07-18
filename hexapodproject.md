@@ -111,6 +111,8 @@ My starter project was an RGB board that displays a color. How it works is that 
 ## Circuit Diagram for Bluetooth HC-08
 ![Circuit](bluetoothhc05.png)
 
+## Wiring Diagram for Ultrasonic Sensor
+![Sensor]()
 
 # Code
 <!---
