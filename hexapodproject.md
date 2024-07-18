@@ -112,7 +112,7 @@ My starter project was an RGB board that displays a color. How it works is that 
 ![Circuit](bluetoothhc05.png)
 
 ## Wiring Diagram for Ultrasonic Sensor
-![Sensor]()
+![Sensor](ultrasonicwiring.png)
 
 # Code
 <!---
