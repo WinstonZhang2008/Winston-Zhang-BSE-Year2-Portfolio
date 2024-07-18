@@ -120,6 +120,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 ### Autonomous Obstacle Detection
 ```c++
 #include <NewPing.h>
+#include <Servo.h>
 #include <FNHR.h>
 
 //Defining variables
@@ -127,10 +128,12 @@ int trig = 2;
 int echo = 3;
 FNHR hexapod;
 int distance;
-int rightdistance;
-int leftdistance;
+int rightdistance = 0;
+int leftdistance = 0;
 int maximum_distance = 400;
 NewPing sonar(trig, echo, maximum_distance);
+
+Servo claw;
 
 void setup() {
   //Configuring the sensor and the hexapod
@@ -138,39 +141,45 @@ void setup() {
   pinMode(trig,OUTPUT);
   pinMode(echo,INPUT);
   Serial.begin(9600);
+  claw.attach(21);
+  claw.write(10);
 
 }
 
 //Turning 90 degrees to the right and then sensing for obstacle
 int lookRight(){
-  for (int i =0;i<16;i++){
+  for (int i =0;i<15;i++){
     hexapod.TurnRight();
   }
+  delay(200);
   rightdistance = readPing();
   return rightdistance;
+  Serial.print(rightdistance);
 }
 
 //Turning 90 degrees to the left
 void turnLeft(){
-  for (int i =0;i<13;i++){
+  for (int i =0;i<14;i++){
     hexapod.TurnLeft();
   }
 }
 
 //Turning right 90 degrees
 void turnRight(){
-  for (int i =0;i<16;i++){
+  for (int i =0;i<15;i++){
     hexapod.TurnRight();
   }
 }
 
 //Turning left 90 degrees then sensing for obstacle
 int lookLeft(){
-  for (int i =0;i<13;i++){
+  for (int i =0;i<12;i++){
     hexapod.TurnLeft();
   }
+  delay(200);
   leftdistance = readPing();
   return leftdistance;
+  Serial.print(leftdistance);
 }
 
 //Gets the distance
@@ -184,33 +193,26 @@ void getDistance(){
   
 }
 
+
+
 void loop() {
-  rightdistance = 0;
-  leftdistance = 0;
 
   distance = readPing();
   Serial.print("Distance: ");
   Serial.println(distance);
 
-  if (distance<=15){
+  if (distance<=20 and distance!=0){
     //If there is an obstacle near it, then it crawls backward
     hexapod.CrawlBackward();
     hexapod.CrawlBackward();
     //It then checks the left for obstacles
     leftdistance = lookLeft();
     delay(100);
-    turnRight();
-    delay(100);
-    //It checks the right for obstacles
-    rightdistance= lookRight();
-    delay(100);
-    if (leftdistance>=rightdistance){
-      //If the closest obstacle to the left is farther away than the closest obstacle on the right, it turns left
-      turnLeft();
-      delay(100);
-      turnLeft();
-      //Since it is already facing the right, the hexapod just continues on if it decides to keep moving forward right
+    if (leftdistance<20){
+      turnRight();
+      turnRight();
     }
+    hexapod.Update();
   }
   else{
     //The robot crawls forward
@@ -228,6 +230,8 @@ int readPing(){
   int cm = sonar.ping_cm();
   return cm;
 }
+
+
 
 ```
 
